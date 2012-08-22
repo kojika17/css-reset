@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* html5 */
+article,aside,footer,header,nav,section,figure,figcaption {
+	display: block;
+	margin:0;
+}
+audio,canvas,video,svg {
+	display:inline-block;
+}
+
+/* block ------------ */
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,form {
+	margin:0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+}
+ol,ul {
+	padding:0;
+	list-style:none;
+}
+table {
+	border-collapse:collapse;  
+	border-spacing:0;
+}
+th {
+	text-align:left;
+}
+dt,dfn,address  {
+	font-weight:700;
+	font-style:normal;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* inline ------------ */
+img {
+	border:none;
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+	max-width:100%;
+	height:auto;
+}
+th img ,
+td img {
+	max-width:auto;
+}
+em {
+	font-weight:bold;
+	font-style:normal;
+}
+abbr[title],dfn[title] {
+	cursor:pointer;
+	text-decoration:underline;
+}
+iframe {
+	vertical-align:middle;
+}
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0 2px;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.buttonClass {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+input[type="checkbox"],
+input[type="radio"],
+.inputBox {
+	box-sizing: border-box;
+	padding: 0;
+	*height: 13px;
+	*width: 13px;
+}
+
+/* default selector  --------*/
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.clearfix {
+	*zoom:1;
+}
+a:hover .alpha {
+	opacity: .7;
+	filter: alpha(opacity=70);
+	-ms-filter: "alpha(opacity=70)";
+}
+
+/* page set  --------*/
+body {
+	font-size:12px;
+	line-height:1.4;
+	font-family:Meiryo,"メイリオ","ヒラギノ角ゴ Pro W3",Helvetica,Arial,sans-serif;
+}
+a {
+	outline:none;
+	color:#00c;
+}
+/*a:visited {
+	color:#099;
+}*/
+a:hover {
+	color:#555;
+}
+
+
+/* layout  --------*/
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
+#header {
+	margin:20px 0;
+}
+#logo {
+	float:left;
+	display:inline;
+	font-size:120%;
+}
+
+
