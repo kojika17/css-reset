@@ -42,13 +42,6 @@ q {
 /* inline ------------ */
 img {
 	border:none;
-	-ms-interpolation-mode: bicubic;
-	image-rendering: optimizeQuality;
-	max-width:100%;
-	height:auto;
-}
-table img {
-	max-width:auto;
 }
 abbr[title],dfn[title] {
 	cursor:pointer;
@@ -96,10 +89,15 @@ input[type="radio"] {
 	display:block;
 	clear:both;
 }
-
 a:hover .alpha {
 	opacity: .75;
 	-ms-filter: "alpha(opacity=75)";
+}
+.fluidimg {
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+	max-width:100%;
+	height:auto;
 }
 
 /* page set  --------*/
