@@ -29,7 +29,7 @@ table {
 	border-spacing:0;
 }
 th {
-	text-align:start;
+	text-align:left;
 }
 dt,dfn,address,em  {
 	font-weight:700;
